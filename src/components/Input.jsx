@@ -1,0 +1,17 @@
+import React from "react";
+
+const Input = ({ className, name, placeholder, type, pattern, title }) => {
+  return (
+    <div className={className}>
+      <label>{name}</label>
+      <input
+        type={type}
+        placeholder={placeholder}
+        pattern={pattern}
+        title={title}
+      />
+    </div>
+  );
+};
+
+export default Input;
