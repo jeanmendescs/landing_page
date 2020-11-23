@@ -8,7 +8,10 @@ const Main = () => {
       </div>
       <div>
         <h1>OTIMIZANDO RESULTADOS NAS ORGANIZAÇÕES</h1>
-        <img src="https://landen.imgix.net/edmyisgcymym/assets/050wj6kt.png?w=1200&h=900&fit=max" />
+        <img
+          src="https://landen.imgix.net/edmyisgcymym/assets/050wj6kt.png?w=1200&h=900&fit=max"
+          alt="Work background"
+        />
       </div>
     </section>
   );

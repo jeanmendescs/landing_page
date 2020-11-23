@@ -5,7 +5,10 @@ const Tech = () => {
   return (
     <section className="tech">
       <div>
-        <img src="https://landen.imgix.net/edmyisgcymym/assets/gt1kjbf6.png?w=1200&h=900&fit=max" />
+        <img
+          src="https://landen.imgix.net/edmyisgcymym/assets/gt1kjbf6.png?w=1200&h=900&fit=max"
+          alt="Technical Knowledges"
+        />
       </div>
       <div>
         <h1>Conhecimentos Técnicos</h1>

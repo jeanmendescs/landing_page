@@ -35,7 +35,10 @@ const Presentation = () => {
         </div>
       </div>
       <div className="presentation-img">
-        <img src="https://landen.imgix.net/edmyisgcymym/assets/aqjx17xs.png?w=1200&h=900&fit=max" />
+        <img
+          src="https://landen.imgix.net/edmyisgcymym/assets/aqjx17xs.png?w=1200&h=900&fit=max"
+          alt="Partner"
+        />
       </div>
     </section>
   );
