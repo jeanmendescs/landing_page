@@ -3,9 +3,7 @@ import React from "react";
 const Partner = () => {
   return (
     <section className="partner">
-      <div id="differentials-title">
-        <h1>Diferenciais:</h1>
-      </div>
+      <h1>Diferenciais:</h1>
       <div id="differentials">
         <div id="differentials-unity">
           <h3>Bom ouvinte</h3>
