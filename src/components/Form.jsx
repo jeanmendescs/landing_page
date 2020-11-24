@@ -4,7 +4,7 @@ import Input from "./Input";
 const Form = () => {
   return (
     <section className="form">
-      <div className="form-container">
+      <div className="container form-container">
         <h1>Solicite uma Consultoria</h1>
         <form>
           <Input name="Nome" placeholder="Seu nome" className="div-flex" />

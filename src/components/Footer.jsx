@@ -1,13 +1,11 @@
 import React from "react";
 import { FaTwitter, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 
-const Optme = () => {
+const Footer = () => {
   return (
     <footer className="footer">
-      <div>
+      <div className="container">
         <span>© OPTME - OTIMIZAÇÃO DIGITAL</span>
-      </div>
-      <div className="div-footer">
         <ul>
           <li>
             <FaTwitter />
@@ -24,4 +22,4 @@ const Optme = () => {
   );
 };
 
-export default Optme;
+export default Footer;
