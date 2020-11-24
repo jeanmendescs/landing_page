@@ -13,24 +13,22 @@ const Presentation = () => {
             <div>
               <h3>Quem sou eu?</h3>
             </div>
-            <div className="skill-wrapper">
-              <Skill
-                description="Sou um profissional que está migrando do setor público para a área
+            <Skill
+              description="Sou um profissional que está migrando do setor público para a área
               de desenvolvimento front-end"
-                icon="roundedCheck"
-              />
-            </div>
+              icon="roundedCheck"
+              className="skill-wrapper"
+            />
           </div>
           <div>
             <div>
               <h3>Experiência</h3>
             </div>
-            <div className="skill-wrapper">
-              <Skill
-                description="Atuei no setor privado nos ramos de telemarketing, usinagem, e também no setor público."
-                icon="roundedCheck"
-              />
-            </div>
+            <Skill
+              description="Atuei no setor privado nos ramos de telemarketing, usinagem, e também no setor público."
+              icon="roundedCheck"
+              className="skill-wrapper"
+            />
           </div>
         </div>
       </div>
