@@ -185,7 +185,11 @@ form {
 
 .form-container {
   max-width: 90%;
-  margin: auto;
+  margin: 50px auto;
+}
+
+.form-container > h1 {
+  line-height: initial;
 }
 
 .form h1 {
