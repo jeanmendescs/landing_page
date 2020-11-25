@@ -7,7 +7,7 @@ const Header = () => {
         <a href="/">
           <img
             src="https://landen.imgix.net/edmyisgcymym/assets/i0hj6b4f.png?w=200"
-            alt="logo"
+            alt="Optme Logo"
           />
         </a>
       </div>

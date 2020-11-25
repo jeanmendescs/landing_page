@@ -2,10 +2,10 @@ import React from "react";
 import { RiCheckboxCircleFill } from "react-icons/ri";
 import { FcCheckmark } from "react-icons/fc";
 
-const Skill = ({ description, icon, className }) => {
+const Skill = ({ description, icon, className, color, size }) => {
   const icons = {
-    roundedCheck: <RiCheckboxCircleFill />,
-    check: <FcCheckmark />,
+    roundedCheck: <RiCheckboxCircleFill color={color} size={size} />,
+    check: <FcCheckmark size={size} />,
   };
 
   return (

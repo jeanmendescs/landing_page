@@ -17,10 +17,6 @@ button {
   line-height: 2.1;
 }
 
-svg {
-  scale: 2.5;
-}
-
 .container {
   max-width: 1200px;
   width: 90%;
@@ -94,9 +90,12 @@ svg {
 
 .presentation {
   background: rgba(46, 80, 113, 1);
+}
+
+.presentation .container {
   display: flex;
   padding: 4rem;
-  justify-content: center;
+  align-items: center;
 }
 
 .presentation h1 {
@@ -111,39 +110,20 @@ svg {
   font-size: 2rem;
 }
 
-.presentation svg {
-  scale: 5;
-}
-
-.presentation-text {
-  width: 50%;
-  max-width: 500px;
-}
-
-.presentation-img {
-  width: 50%;
-}
-
 .presentation img {
-  max-width: 100%;
-  max-height: 500px;
-  padding: 5rem;
-}
-
-.presentation svg {
-  color: hsl(219.2, 73.5%, 80.8%);
-  scale: 6;
+  height: 330px;
+  margin-left: 50px;
 }
 
 .skill-wrapper {
   display: flex;
-  align-items: center;
+  align-items: end;
   font-size: 1.6rem;
   line-height: 1.5;
 }
 
 .skill-wrapper > svg {
-  margin-right: 2.5rem;
+  margin-right: 1rem;
 }
 
 .tech {
@@ -159,6 +139,10 @@ svg {
 .tech .skill {
   display: flex;
   align-items: center;
+}
+
+.skill p {
+  margin-left: 5px;
 }
 
 .image {
@@ -177,7 +161,6 @@ form {
 }
 
 .form-container {
-  max-width: 90%;
   margin: 50px auto;
 }
 
@@ -209,10 +192,6 @@ form {
   width: calc(50% - 9px);
   margin-bottom: 1.6rem;
   margin-left: 0.9rem;
-}
-
-::placeholder {
-  color: #bbb;
 }
 
 button {
@@ -247,6 +226,7 @@ input {
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   border: none;
+  height: 34px;
 }
 
 .partner {
@@ -283,10 +263,9 @@ input {
   color: rgba(174, 175, 176, 1);
   font-size: 2rem;
   line-height: 1.1;
-  margin-bottom: 4rem;
   column-count: 2;
   column-gap: 50px;
-  width: 700px;
+  width: 760px;
   margin: 0 auto;
 }
 
@@ -308,8 +287,12 @@ input {
 ul {
   display: flex;
   flex-direction: row;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   list-style-type: none;
+}
+
+ul li {
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -321,15 +304,6 @@ ul {
   }
   .main h1 {
     font-size: 3rem;
-  }
-
-  .presentation {
-    display: block;
-    justify-content: unset;
-  }
-  .presentation-text,
-  .presentation-img {
-    width: 100%;
   }
 
   .footer > .container {
@@ -353,7 +327,8 @@ ul {
 }
 
 @media (min-width: 601px) and (max-width: 960px) {
-  .image {
+  .image,
+  .presentation img {
     height: 230px;
     margin-right: 30px;
   }

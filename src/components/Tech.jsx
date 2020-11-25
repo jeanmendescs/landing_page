@@ -12,12 +12,37 @@ const Tech = () => {
         />
         <div>
           <h1>Conhecimentos Técnicos</h1>
-          <Skill className="skill" description="JavaScript" icon="check" />
-          <Skill className="skill" description="CSS" icon="check" />
-          <Skill className="skill" description="HTML" icon="check" />
-          <Skill className="skill" description="React" icon="check" />
-          <Skill className="skill" description="Redux" icon="check" />
-          <Skill className="skill" description="Design Thinking" icon="check" />
+          <Skill
+            className="skill"
+            description="JavaScript"
+            icon="check"
+            size="20px"
+          />
+          <Skill className="skill" description="CSS" icon="check" size="20px" />
+          <Skill
+            className="skill"
+            description="HTML"
+            icon="check"
+            size="20px"
+          />
+          <Skill
+            className="skill"
+            description="React"
+            icon="check"
+            size="20px"
+          />
+          <Skill
+            className="skill"
+            description="Redux"
+            icon="check"
+            size="20px"
+          />
+          <Skill
+            className="skill"
+            description="Design Thinking"
+            icon="check"
+            size="20px"
+          />
         </div>
       </div>
     </section>

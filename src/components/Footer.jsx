@@ -8,13 +8,13 @@ const Footer = () => {
         <span>© OPTME - OTIMIZAÇÃO DIGITAL</span>
         <ul>
           <li>
-            <FaTwitter />
+            <FaTwitter size="25px" />
           </li>
           <li>
-            <FaLinkedin />
+            <FaLinkedin size="25px" />
           </li>
           <li>
-            <FaFacebookSquare />
+            <FaFacebookSquare size="25px" />
           </li>
         </ul>
       </div>
