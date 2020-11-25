@@ -40,8 +40,7 @@ button {
 }
 
 .main {
-  min-height: 654px;
-  overflow: hidden;
+  padding: 20px;
   height: 100vh;
 }
 
@@ -66,26 +65,30 @@ button {
   bottom: 0;
 }
 
-/* .main div:last-child {
-  padding: 30px;
-  position: relative;
-} */
+.main-optme {
+  position: absolute;
+  top: 55vh;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 90%;
+  margin: auto;
+  max-width: 900px;
+}
 
 .main h1 {
   position: absolute;
   font-size: 5.6rem;
-  color: #fff;
   text-align: center;
   line-height: 65px;
   top: 25vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .main img {
-  position: absolute;
-  max-width: 100%;
-  top: 55vh;
-  padding-right: 50px;
-  padding-left: 14px;
+  width: 100%;
 }
 
 .presentation {
@@ -309,7 +312,8 @@ ul li {
     margin-left: 0;
   }
   .main h1 {
-    font-size: 3rem;
+    font-size: 35px;
+    line-height: initial;
   }
 
   .footer > .container {
@@ -341,6 +345,14 @@ ul li {
 
   .presentation-img {
     margin-top: 30px;
+  }
+
+  .skill-wrapper {
+    align-items: center;
+  }
+
+  .presentation .container > div {
+    margin: 10px auto 0 auto;
   }
 }
 
