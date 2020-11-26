@@ -7,14 +7,14 @@ const Partner = () => {
       <div class="differentials">
         <div class="differentials-unity">
           <h3>Bom ouvinte</h3>
-          <p>Sempre atento ao que os outros falam</p>
+          <p>Sempre atento ao que os outros têm a dizer</p>
         </div>
         <div class="differentials-unity">
-          <h3>Autodclassata</h3>
+          <h3>Autodidata</h3>
           <p>Manter-me atualizado como meta</p>
         </div>
         <div class="differentials-unity">
-          <h3>Movclasso a desafios</h3>
+          <h3>Movido a desafios</h3>
           <p>Em busca de motivação adicional</p>
         </div>
         <div class="differentials-unity">
