@@ -1,0 +1,18 @@
+@import "../../reset.module.scss";
+
+.navbar {
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: white;
+  color: white;
+}
+
+.navbar img {
+  margin-left: 20px;
+  padding: 10px;
+  vertical-align: bottom;
+}
