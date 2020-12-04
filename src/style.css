@@ -19,30 +19,6 @@ button {
   margin: 0 auto;
 }
 
-.tech {
-  color: black;
-}
-
-.tech .container {
-  display: flex;
-  justify-content: center;
-  margin: 50px auto;
-}
-
-.tech .skill {
-  display: flex;
-  align-items: center;
-}
-
-.skill p {
-  margin-left: 5px;
-}
-
-.image {
-  height: 330px;
-  margin-right: 50px;
-}
-
 form {
   margin: revert;
   padding: revert;
