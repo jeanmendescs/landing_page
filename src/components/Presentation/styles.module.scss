@@ -1,0 +1,81 @@
+@import "../../reset.module.scss";
+@import "../../container.module.scss";
+
+@mixin break-small {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+.presentation {
+  background: rgba(46, 80, 113, 1);
+
+  h1 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  img {
+    height: 330px;
+    margin-left: 50px;
+  }
+  @include break-small {
+    .presentation {
+      img {
+        height: 190px;
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  max-width: 900px;
+  > div {
+    max-width: 360px;
+    margin: auto;
+  }
+}
+
+.skill_wrapper {
+  display: flex;
+  align-items: flex-end;
+  font-size: 16px;
+  line-height: 1.5;
+  > svg {
+    margin-right: 10px;
+  }
+}
+
+.whoami {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .presentation .container {
+    flex-direction: column;
+  }
+
+  .presentation img {
+    height: 190px;
+    margin-left: 0px;
+  }
+
+  .skill_wrapper {
+    align-items: center;
+  }
+
+  .presentation .container > div {
+    margin: 15px auto 0 auto;
+  }
+}
+@media (max-width: 960px) {
+  .presentation img {
+    height: 190px;
+    margin-left: 30px;
+  }
+}

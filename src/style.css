@@ -19,50 +19,6 @@ button {
   margin: 0 auto;
 }
 
-.presentation {
-  background: rgba(46, 80, 113, 1);
-}
-
-.presentation .container {
-  display: flex;
-  padding: 40px;
-  align-items: center;
-  max-width: 900px;
-}
-
-.presentation .container > div {
-  max-width: 360px;
-  margin: auto;
-}
-
-.presentation h1 {
-  font-size: 26px;
-}
-
-.whoami {
-  margin-bottom: 20px;
-}
-
-.presentation h3 {
-  font-size: 20px;
-}
-
-.presentation img {
-  height: 330px;
-  margin-left: 50px;
-}
-
-.skill-wrapper {
-  display: flex;
-  align-items: flex-end;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.skill-wrapper > svg {
-  margin-right: 10px;
-}
-
 .tech {
   color: black;
 }
@@ -256,26 +212,6 @@ ul li {
     width: 290px;
     height: 255px;
     margin-top: 30px;
-  }
-  .presentation .container {
-    flex-direction: column;
-  }
-
-  .presentation img {
-    height: 190px;
-    margin-left: 0px;
-  }
-
-  .presentation-img {
-    margin-top: 30px;
-  }
-
-  .skill-wrapper {
-    align-items: center;
-  }
-
-  .presentation .container > div {
-    margin: 15px auto 0 auto;
   }
 }
 
