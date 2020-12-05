@@ -1,0 +1,63 @@
+@import "../../reset.module.scss";
+@import "../../container.module.scss";
+
+.partner {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 50px auto;
+  > h1 {
+    color: rgba(82, 85, 87, 1);
+    text-align: center;
+    line-height: initial;
+    margin-bottom: 40px;
+  }
+}
+
+.differentials_unity {
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+.differentials .differentials_unity:nth-child(2),
+.differentials .differentials_unity:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.differentials {
+  color: rgba(174, 175, 176, 1);
+  font-size: 20px;
+  line-height: 1.1;
+  column-count: 2;
+  column-gap: 50px;
+  width: 870px;
+  margin: 0 auto;
+  p {
+    font-size: 18.4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer > .container {
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 960px) {
+  .differentials {
+    column-count: 1;
+    column-gap: 50px;
+    width: initial;
+    max-width: 90%;
+  }
+
+  .differentials .differentials_unity:nth-child(2) {
+    margin-bottom: 40px;
+  }
+
+  .differentials .differentials_unity:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
