@@ -10,8 +10,10 @@ const Skill = ({ description, icon, className, color, size }) => {
 
   return (
     <div className={className}>
-      {icons[icon]}
-      <p>{description}</p>
+      <div>{icons[icon]}</div>
+      <div>
+        <p>{description}</p>
+      </div>
     </div>
   );
 };

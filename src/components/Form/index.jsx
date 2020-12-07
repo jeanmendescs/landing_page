@@ -6,39 +6,35 @@ import classnames from "classnames";
 const Form = () => {
   return (
     <section className={styles.form}>
-      <div className={classnames(styles.container, styles.form_container)}>
+      <div className={classnames(styles.container, styles.cta)}>
         <h1>Solicite uma Consultoria</h1>
         <form>
+          <Input name="Nome" placeholder="Seu nome" className={styles.flex} />
           <Input
-            name="Nome"
-            placeholder="Seu nome"
-            className={styles.container_flex}
-          />
-          <Input
-            className={styles.container_inline_first}
+            className={styles.inlineFirst}
             type="email"
             name="Email"
             placeholder="email@exemplo.com"
           />
           <Input
-            className={styles.container_inline_second}
+            className={styles.inlineSecond}
             name="Empresa"
             placeholder="Sua Empresa"
           />
           <Input
             name="Cargo"
             placeholder="Seu Cargo"
-            className={styles.container_inline_first}
+            className={styles.inlineFirst}
           />
           <Input
             name="Telefone de Contato"
             placeholder="(DDD) 9 9999-9999"
-            className={styles.container_inline_second}
+            className={styles.inlineSecond}
             pattern="[0-9]"
             title="Apenas números"
           />
           <Input
-            className={styles.container_flex}
+            className={styles.flex}
             name="Envie-nos sua proposta ou dúvida"
             placeholder="Envie-nos sua proposta ou dúvida"
           />

@@ -1,11 +1,4 @@
-@import "../../reset.module.scss";
 @import "../../container.module.scss";
-
-@mixin break-small {
-  @media only screen and (max-width: 600px) {
-    @content;
-  }
-}
 
 .presentation {
   background: rgba(46, 80, 113, 1);
@@ -20,14 +13,6 @@
     height: 330px;
     margin-left: 50px;
   }
-  @include break-small {
-    .presentation {
-      img {
-        height: 190px;
-        margin-left: 0px;
-      }
-    }
-  }
 }
 
 .container {
@@ -41,9 +26,8 @@
   }
 }
 
-.skill_wrapper {
+.skillWrapper {
   display: flex;
-  align-items: flex-end;
   font-size: 16px;
   line-height: 1.5;
   > svg {
@@ -56,21 +40,18 @@
 }
 
 @media (max-width: 600px) {
-  .presentation .container {
+  .container {
     flex-direction: column;
   }
 
-  .presentation img {
-    height: 190px;
-    margin-left: 0px;
-  }
-
-  .skill_wrapper {
-    align-items: center;
-  }
-
-  .presentation .container > div {
-    margin: 15px auto 0 auto;
+  .presentation {
+    img {
+      height: 190px;
+      margin-left: 0px;
+    }
+    .container > div {
+      margin: 15px auto 0 auto;
+    }
   }
 }
 @media (max-width: 960px) {

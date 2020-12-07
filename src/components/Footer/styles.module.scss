@@ -1,9 +1,8 @@
-@import "../../reset.module.scss";
 @import "../../container.module.scss";
 
 .footer {
   background: rgba(46, 80, 113, 1);
-  & > .container {
+  > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,9 +13,8 @@
     flex-direction: row;
     grid-gap: 20px;
     list-style-type: none;
+    li {
+      cursor: pointer;
+    }
   }
-}
-
-ul li {
-  cursor: pointer;
 }

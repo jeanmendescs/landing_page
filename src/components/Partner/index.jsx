@@ -6,19 +6,19 @@ const Partner = () => {
     <section className={styles.partner}>
       <h1>Diferenciais:</h1>
       <div className={styles.differentials}>
-        <div className={styles.differentials_unity}>
+        <div className={styles.differentialsUnity}>
           <h3>Bom ouvinte</h3>
           <p>Sempre atento ao que os outros têm a dizer</p>
         </div>
-        <div className={styles.differentials_unity}>
+        <div className={styles.differentialsUnity}>
           <h3>Autodidata</h3>
           <p>Manter-me atualizado como meta</p>
         </div>
-        <div className={styles.differentials_unity}>
+        <div className={styles.differentialsUnity}>
           <h3>Movido a desafios</h3>
           <p>Em busca de motivação adicional</p>
         </div>
-        <div className={styles.differentials_unity}>
+        <div className={styles.differentialsUnity}>
           <h3>Prestativo</h3>
           <p>Um olhar para além do individual</p>
         </div>

@@ -1,4 +1,3 @@
-@import "../../reset.module.scss";
 @import "../../container.module.scss";
 
 .form {
@@ -44,27 +43,27 @@
   }
 }
 
-.form_container {
+.cta {
   margin: 50px auto;
   > h1 {
     line-height: initial;
   }
 }
 
-.container_flex {
+.flex {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
 }
 
-.container_inline_first {
+.inlineFirst {
   display: inline-block;
   width: calc(50% - 9px);
   margin-bottom: 16px;
   margin-right: 9px;
 }
 
-.container_inline_second {
+.inlineSecond {
   display: inline-block;
   width: calc(50% - 9px);
   margin-bottom: 16px;
@@ -72,8 +71,8 @@
 }
 
 @media (max-width: 600px) {
-  .div-inline-first,
-  .div-inline-second {
+  .inlineFirst,
+  .inlineSecond {
     width: 100%;
     margin-right: 0;
     margin-left: 0;

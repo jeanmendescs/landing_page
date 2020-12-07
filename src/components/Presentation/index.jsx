@@ -19,9 +19,9 @@ const Presentation = () => {
                 description="Sou um profissional que está migrando do setor público para a área
               de desenvolvimento front-end"
                 icon="roundedCheck"
-                className={styles.skill_wrapper}
+                className={styles.skillWrapper}
                 color="rgb(198, 208, 227)"
-                size="104px"
+                size="45px"
               />
             </div>
             <div>
@@ -31,9 +31,9 @@ const Presentation = () => {
               <Skill
                 description="Atuei no setor privado nos ramos de telemarketing, usinagem, e também no setor público."
                 icon="roundedCheck"
-                className={styles.skill_wrapper}
+                className={styles.skillWrapper}
                 color="rgb(198, 208, 227)"
-                size="104px"
+                size="45px"
               />
             </div>
           </div>
