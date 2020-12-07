@@ -1,12 +1,11 @@
 import React from "react";
 import Input from "../Input";
 import styles from "./styles.module.scss";
-import classnames from "classnames";
 
 const Form = () => {
   return (
     <section className={styles.form}>
-      <div className={classnames(styles.container, styles.cta)}>
+      <div className={styles.container}>
         <h1>Solicite uma Consultoria</h1>
         <form>
           <Input name="Nome" placeholder="Seu nome" className={styles.flex} />

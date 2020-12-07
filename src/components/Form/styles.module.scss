@@ -3,6 +3,12 @@
 .form {
   background: rgba(46, 80, 113, 1);
   display: flex;
+  > div {
+    margin: 50px auto;
+    > h1 {
+      line-height: initial;
+    }
+  }
   h1 {
     font-size: 37px;
     text-align: center;
@@ -40,13 +46,6 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     width: 100%;
-  }
-}
-
-.cta {
-  margin: 50px auto;
-  > h1 {
-    line-height: initial;
   }
 }
 

@@ -6,7 +6,7 @@ import Tech from "./components/Tech";
 import Form from "./components/Form/";
 import Partner from "./components/Partner/";
 import Footer from "./components/Footer";
-import styles from "./reset.scss";
+import "./reset.scss";
 
 const App = () => {
   return (
