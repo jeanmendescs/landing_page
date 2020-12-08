@@ -1,6 +1,6 @@
 # Landing Page
 
-> Esta aplicação exibe uma landing page. Ela é composta por uma NavBar, cinco seções, sendo uma delas um formulário.
+> Esta aplicação exibe uma landing page. Ela é composta por uma NavBar e cinco seções, sendo uma delas um formulário.
 
 ## Tabela de conteúdos
 
@@ -19,7 +19,7 @@
 
 ## Descrição
 
-O objetivo deste projeto é colocar em prática o conteúdo aprendido de um curso online. Para tanto, foram aplicados conhecimentos de React, HTML e CSS3.
+O objetivo deste projeto é colocar em prática o conteúdo aprendido de um curso online. Para tanto, foram aplicados conhecimentos de React, SASS e HTML.
 
 ## Screenshots
 
