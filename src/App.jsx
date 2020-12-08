@@ -3,10 +3,10 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Presentation from "./components/Presentation";
 import Tech from "./components/Tech";
-import Form from "./components/Form";
-import Partner from "./components/Partner.jsx";
+import Form from "./components/Form/";
+import Partner from "./components/Partner/";
 import Footer from "./components/Footer";
-import "./style.css";
+import "./reset.scss";
 
 const App = () => {
   return (

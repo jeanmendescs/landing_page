@@ -1,38 +1,39 @@
 import React from "react";
-import Input from "./Input";
+import Input from "../Input";
+import styles from "./styles.module.scss";
 
 const Form = () => {
   return (
-    <section className="form">
-      <div className="container form-container">
+    <section className={styles.form}>
+      <div className={styles.container}>
         <h1>Solicite uma Consultoria</h1>
         <form>
-          <Input name="Nome" placeholder="Seu nome" className="div-flex" />
+          <Input name="Nome" placeholder="Seu nome" className={styles.flex} />
           <Input
-            className="div-inline-first"
+            className={styles.inlineFirst}
             type="email"
             name="Email"
             placeholder="email@exemplo.com"
           />
           <Input
-            className="div-inline-second"
+            className={styles.inlineSecond}
             name="Empresa"
             placeholder="Sua Empresa"
           />
           <Input
             name="Cargo"
             placeholder="Seu Cargo"
-            className="div-inline-first"
+            className={styles.inlineFirst}
           />
           <Input
             name="Telefone de Contato"
             placeholder="(DDD) 9 9999-9999"
-            className="div-inline-second"
+            className={styles.inlineSecond}
             pattern="[0-9]"
             title="Apenas números"
           />
           <Input
-            className="div-flex"
+            className={styles.flex}
             name="Envie-nos sua proposta ou dúvida"
             placeholder="Envie-nos sua proposta ou dúvida"
           />

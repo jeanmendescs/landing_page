@@ -1,0 +1,56 @@
+@import "../../container.module.scss";
+
+.main {
+  padding: 20px;
+  height: 100vh;
+  h1 {
+    position: absolute;
+    font-size: 56px;
+    text-align: center;
+    line-height: 65px;
+    top: 25vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  img {
+    width: 100%;
+  }
+  .backgroundImg {
+    background-image: url(https://landen.imgix.net/edmyisgcymym/assets/fyyjicfx.jpg?w=1300&h=800&q=50&fit=crop);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    background-position: 50%;
+    background-size: cover;
+  }
+  .backgroundColor {
+    background-color: rgba(0, 0, 0, 0.49);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.optmeImg {
+  position: absolute;
+  top: 55vh;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 90%;
+  margin: auto;
+  max-width: 900px;
+}
+
+@media (max-width: 600px) {
+  .main h1 {
+    font-size: 35px;
+    line-height: initial;
+  }
+}

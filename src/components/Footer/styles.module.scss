@@ -1,0 +1,20 @@
+@import "../../container.module.scss";
+
+.footer {
+  background: rgba(46, 80, 113, 1);
+  > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    list-style-type: none;
+    li {
+      cursor: pointer;
+    }
+  }
+}

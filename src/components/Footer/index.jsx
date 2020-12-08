@@ -1,10 +1,11 @@
 import React from "react";
 import { FaTwitter, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
+import styles from "./styles.module.scss";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="container">
+    <footer className={styles.footer}>
+      <div className={styles.container}>
         <span>© OPTME - OTIMIZAÇÃO DIGITAL</span>
         <ul>
           <li>

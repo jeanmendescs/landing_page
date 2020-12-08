@@ -1,0 +1,62 @@
+@import "../../container.module.scss";
+
+.presentation {
+  background: rgba(46, 80, 113, 1);
+
+  h1 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  img {
+    height: 330px;
+    margin-left: 50px;
+  }
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  max-width: 900px;
+  > div {
+    max-width: 360px;
+    margin: auto;
+  }
+}
+
+.skillWrapper {
+  display: flex;
+  font-size: 16px;
+  line-height: 1.5;
+  > svg {
+    margin-right: 10px;
+  }
+}
+
+.whoami {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .presentation {
+    img {
+      height: 190px;
+      margin-left: 0px;
+    }
+    .container > div {
+      margin: 15px auto 0 auto;
+    }
+  }
+}
+@media (max-width: 960px) {
+  .presentation img {
+    height: 190px;
+    margin-left: 30px;
+  }
+}
