@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 const Main = () => {
   return (
-    <section>
+    <section id="main">
       <div className={styles.main}>
         <div className={styles.backgroundImg}>
           <div className={styles.backgroundColor}></div>

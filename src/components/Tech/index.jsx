@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 const Tech = () => {
   return (
-    <section className={styles.tech}>
+    <section id="tech" className={styles.tech}>
       <div className={styles.container}>
         <img
           src="https://landen.imgix.net/edmyisgcymym/assets/gt1kjbf6.png?w=1200&h=900&fit=max"
