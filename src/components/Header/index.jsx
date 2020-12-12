@@ -7,11 +7,20 @@ const Header = () => {
       <div className={styles.navbar}>
         <ul>
           <li>
-            <a href="#presentation">Apresentação</a>
+            <a href="#main">Capa</a>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            <a href="#presentation">Histórico</a>
+          </li>
+          <li>
+            <a href="#tech">Conhecimentos Técnicos</a>
+          </li>
+          <li>
+            <a href="#partner">Diferenciais</a>
+          </li>
+          <li>
+            <a href="#form">Formulário</a>
+          </li>
         </ul>
       </div>
     </nav>

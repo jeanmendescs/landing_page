@@ -7,10 +7,21 @@
   z-index: 10;
   background: white;
   color: white;
-  img {
-    margin-left: 20px;
-    padding: 5px;
-    vertical-align: bottom;
-    width: 50px;
+  display: flex;
+  font-size: initial;
+  border-bottom: 2px solid #826b6b;
+  ul {
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    &:visited,
+    &:hover,
+    &:active {
+      color: black;
+    }
   }
 }

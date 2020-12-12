@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 const Form = () => {
   return (
-    <section className={styles.form}>
+    <section id="form" className={styles.form}>
       <div className={styles.container}>
         <h1>Solicite uma Consultoria</h1>
         <form>
