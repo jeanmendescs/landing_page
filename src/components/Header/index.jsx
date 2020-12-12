@@ -5,12 +5,14 @@ const Header = () => {
   return (
     <nav>
       <div className={styles.navbar}>
-        <a href="/">
-          <img
-            src="https://landen.imgix.net/edmyisgcymym/assets/i0hj6b4f.png?w=200"
-            alt="Optme Logo"
-          />
-        </a>
+        <ul>
+          <li>
+            <a href="#presentation">Apresentação</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </nav>
   );
