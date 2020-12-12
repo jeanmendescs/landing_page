@@ -4,11 +4,11 @@ import styles from "./styles.module.scss";
 
 const Presentation = () => {
   return (
-    <section className={styles.presentation}>
+    <section id="presentation" className={styles.presentation}>
       <div className={styles.container}>
         <div>
           <div>
-            <h1>Olá, sou Jean Carlos!</h1>
+            <h1>Histórico</h1>
           </div>
           <div>
             <div className={styles.whoami}>
