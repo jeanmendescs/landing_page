@@ -9,6 +9,7 @@ const Input = ({ className, name, placeholder, type, pattern, title }) => {
         placeholder={placeholder}
         pattern={pattern}
         title={title}
+        required
       />
     </div>
   );

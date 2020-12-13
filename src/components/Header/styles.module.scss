@@ -1,4 +1,5 @@
 .navbar {
+  height: 42px;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -9,7 +10,7 @@
   color: white;
   display: flex;
   font-size: initial;
-  border-bottom: 2px solid #826b6b;
+  border-bottom: 1px solid #826b6b;
   ul {
     display: flex;
     gap: 25px;
@@ -19,9 +20,32 @@
     text-decoration: none;
     font-size: 20px;
     &:visited,
-    &:hover,
-    &:active {
+    &:active,
+    &:hover {
       color: black;
+    }
+  }
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .burger {
+    display: block;
+    float: left;
+    margin: auto 10px auto auto;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .navbar {
+    ul {
+      gap: 13px;
     }
   }
 }

@@ -16,5 +16,17 @@
     li {
       cursor: pointer;
     }
+
+    a {
+      &:link {
+        text-decoration: inherit;
+        color: inherit;
+      }
+
+      &:visited {
+        text-decoration: inherit;
+        color: inherit;
+      }
+    }
   }
 }
