@@ -36,7 +36,7 @@ const Form = () => {
             title="Apenas números"
           />
           <div className={styles.flex}>
-            <label for="proposal">Envie-nos sua proposta ou dúvida</label>
+            <label htmlFor="proposal">Envie-nos sua proposta ou dúvida</label>
             <textarea
               required
               id="proposal"
