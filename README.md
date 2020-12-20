@@ -41,7 +41,7 @@ Para rodar aplicação faça o seguinte:
 ```bash
 # Clone este repositório
 
-git clone https://github.com/jeanmendescs/teste.git
+git clone https://github.com/jeanmendescs/landing_page.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd todo
