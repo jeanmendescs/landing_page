@@ -23,7 +23,7 @@ O objetivo deste projeto é colocar em prática o conteúdo aprendido de um curs
 
 ## Screenshots
 
-![Example screenshot](https://imgur.com/SPbaUq3.jpg)
+![Example screenshot](https://imgur.com/XmaQunf.jpg)
 ![Example screenshot](https://imgur.com/qKcPrp9.jpg)
 ![Example screenshot](https://imgur.com/RiYXSbe.jpg)
 

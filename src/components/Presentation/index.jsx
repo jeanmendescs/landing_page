@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 const Presentation = () => {
   return (
-    <section id="presentation" className={styles.presentation}>
+    <section className={styles.presentation}>
       <div className={styles.container}>
         <div>
           <div>

@@ -12,12 +12,3 @@ button {
   font-size: 14px;
   line-height: 2.1;
 }
-
-section::before {
-  display: block;
-  content: " ";
-  margin-top: -33px;
-  height: 33px;
-  visibility: hidden;
-  pointer-events: none;
-}

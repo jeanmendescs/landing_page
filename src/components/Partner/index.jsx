@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 const Partner = () => {
   return (
-    <section id="partner" className={styles.partner}>
+    <section className={styles.partner}>
       <div className={styles.wrapper}>
         <h1>Diferenciais:</h1>
         <div className={styles.differentials}>
