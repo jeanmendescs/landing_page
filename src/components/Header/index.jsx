@@ -4,13 +4,10 @@ import styles from "./styles.module.scss";
 const Header = () => {
   return (
     <nav>
-      <div className={styles.navbar}>
-        <a href="/">
-          <img
-            src="https://landen.imgix.net/edmyisgcymym/assets/i0hj6b4f.png?w=200"
-            alt="Optme Logo"
-          />
-        </a>
+      <div className={styles.container}>
+        <div className={styles.navbar}>
+          <h3>© Jean Carlos</h3>
+        </div>
       </div>
     </nav>
   );

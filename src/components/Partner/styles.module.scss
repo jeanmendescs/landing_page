@@ -1,17 +1,33 @@
 @import "../../container.module.scss";
 
 .partner {
+  background: #2e5071;
+  height: 400px;
   display: flex;
-  color: black;
+  color: #000;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+.wrapper {
+  display: flex;
+  color: white;
   flex-direction: column;
   max-width: 90%;
-  margin: 50px auto;
+  margin: 60px auto;
   > h1 {
-    color: rgba(82, 85, 87, 1);
     text-align: center;
     line-height: initial;
     margin-bottom: 40px;
   }
+  h3,
+  p {
+    color: white;
+  }
+}
+
+textarea {
+  resize: none;
 }
 
 .differentialsUnity {
@@ -51,5 +67,11 @@
 
   .differentialsUnity:nth-child(4) {
     margin-bottom: 0;
+  }
+  .partner {
+    height: 500px;
+  }
+  .wrapper {
+    margin-top: 30px;
   }
 }

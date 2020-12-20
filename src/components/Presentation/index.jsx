@@ -1,6 +1,7 @@
 import React from "react";
 import Skill from "../Skill";
 import styles from "./styles.module.scss";
+import know_how from "../../img/know_how.png";
 
 const Presentation = () => {
   return (
@@ -8,7 +9,7 @@ const Presentation = () => {
       <div className={styles.container}>
         <div>
           <div>
-            <h1>Olá, sou Jean Carlos!</h1>
+            <h1>Histórico</h1>
           </div>
           <div>
             <div className={styles.whoami}>
@@ -39,10 +40,7 @@ const Presentation = () => {
           </div>
         </div>
         <div>
-          <img
-            src="https://landen.imgix.net/edmyisgcymym/assets/aqjx17xs.png?w=1200&h=900&fit=max"
-            alt="Partner"
-          />
+          <img src={know_how} alt="Partner" />
         </div>
       </div>
     </section>

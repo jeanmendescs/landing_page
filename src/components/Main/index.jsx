@@ -8,14 +8,13 @@ const Main = () => {
         <div className={styles.backgroundImg}>
           <div className={styles.backgroundColor}></div>
         </div>
-        <div>
-          <h1>OTIMIZANDO RESULTADOS NAS ORGANIZAÇÕES</h1>
-          <div className={styles.optmeImg}>
-            <img
-              src="https://landen.imgix.net/edmyisgcymym/assets/050wj6kt.png?w=1200&h=900&fit=max"
-              alt="Work background"
-            />
-          </div>
+        <div className={styles.textWrapper}>
+          <h1>Olá, sou o Jean Carlos! </h1>
+          <h1>Seja muito bem-vindo(a)!</h1>
+          <p>
+            Abaixo você vai conhecer um pouco sobre mim e também poderá
+            solicitar uma Consultoria.
+          </p>
         </div>
       </div>
     </section>

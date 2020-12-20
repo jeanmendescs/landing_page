@@ -14,6 +14,9 @@ const Form = () => {
             type="email"
             name="Email"
             placeholder="email@exemplo.com"
+            action="mailto:someone@example.com"
+            method="post"
+            enctype="text/plain"
           />
           <Input
             className={styles.inlineSecond}
@@ -32,13 +35,20 @@ const Form = () => {
             pattern="[0-9]"
             title="Apenas números"
           />
-          <Input
-            className={styles.flex}
-            name="Envie-nos sua proposta ou dúvida"
-            placeholder="Envie-nos sua proposta ou dúvida"
-          />
+          <div className={styles.flex}>
+            <label htmlFor="proposal">Envie-nos sua proposta ou dúvida</label>
+            <textarea
+              required
+              id="proposal"
+              name="proposal"
+              rows="5"
+              cols="33"
+            ></textarea>
+          </div>
           <div>
-            <button type="submit">Quero falar com um consultor</button>
+            <button value="submit" type="submit">
+              Quero falar com um consultor
+            </button>
           </div>
         </form>
       </div>

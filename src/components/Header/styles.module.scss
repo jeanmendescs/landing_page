@@ -1,4 +1,5 @@
 .navbar {
+  height: 42px;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -6,10 +7,11 @@
   position: fixed;
   z-index: 10;
   background: white;
-  color: white;
-  img {
+  font-size: initial;
+  border-bottom: 1px solid #826b6b;
+
+  h3 {
     margin-left: 20px;
-    padding: 10px;
-    vertical-align: bottom;
+    color: black;
   }
 }

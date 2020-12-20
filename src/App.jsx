@@ -15,8 +15,8 @@ const App = () => {
       <Main />
       <Presentation />
       <Tech />
-      <Form />
       <Partner />
+      <Form />
       <Footer />
     </div>
   );
