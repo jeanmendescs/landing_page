@@ -24,8 +24,8 @@ O objetivo deste projeto é colocar em prática o conteúdo aprendido de um curs
 ## Screenshots
 
 ![Example screenshot](https://imgur.com/XmaQunf.jpg)
-![Example screenshot](https://imgur.com/qKcPrp9.jpg)
-![Example screenshot](https://imgur.com/RiYXSbe.jpg)
+![Example screenshot](https://imgur.com/FGumfDr.jpg)
+![Example screenshot](https://imgur.com/UnWna5q.jpg)
 
 ## Tecnologias
 
