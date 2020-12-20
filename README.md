@@ -8,6 +8,7 @@
 
 - [Landing Page](#landing-page)
 - [Tabela de conteúdos](#tabela-de-conteúdos)
+- [Projeto Online](#projeto-online)
 - [Descrição](#descrição)
 - [Screenshots](#screenshots)
 - [Tecnologias](#tecnologias)
@@ -20,6 +21,10 @@
 ## Descrição
 
 O objetivo deste projeto é colocar em prática o conteúdo aprendido de um curso online. Para tanto, foram aplicados conhecimentos de React, SASS e HTML.
+
+## Projeto Online
+
+https://jeanmendescs-landing-page.netlify.app/
 
 ## Screenshots
 
