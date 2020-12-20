@@ -7,45 +7,11 @@
   position: fixed;
   z-index: 10;
   background: white;
-  color: white;
-  display: flex;
   font-size: initial;
   border-bottom: 1px solid #826b6b;
-  ul {
-    display: flex;
-    gap: 25px;
-    margin: 0 auto;
-  }
-  a {
-    text-decoration: none;
-    font-size: 20px;
-    &:visited,
-    &:active,
-    &:hover {
-      color: black;
-    }
-  }
-}
 
-.burger {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  .burger {
-    display: block;
-    float: left;
-    margin: auto 10px auto auto;
-  }
-  .navbar ul {
-    display: none;
-  }
-}
-
-@media (max-width: 960px) {
-  .navbar {
-    ul {
-      gap: 13px;
-    }
+  h3 {
+    margin-left: 20px;
+    color: black;
   }
 }
