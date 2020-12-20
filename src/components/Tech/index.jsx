@@ -46,6 +46,12 @@ const Tech = () => {
             icon="check"
             size="20px"
           />
+          <Skill
+            className={styles.skill}
+            description="Sass"
+            icon="check"
+            size="20px"
+          />
         </div>
       </div>
     </section>

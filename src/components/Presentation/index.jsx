@@ -30,7 +30,14 @@ const Presentation = () => {
                 <h3>Experiência</h3>
               </div>
               <Skill
-                description="Atuei no setor privado nos ramos de telemarketing, usinagem, e também no setor público."
+                description="Atuei no ramo de T.I, onde prestei suporte aos usuários em demandas de software e hardware e também os orientei na utilização de softwares e equipamentos instalados."
+                icon="roundedCheck"
+                className={styles.skillWrapper}
+                color="rgb(198, 208, 227)"
+                size="45px"
+              />
+              <Skill
+                description="Além dessa experiência, trabalhei no setor privado nos ramos de telemarketing, usinagem, e também no setor público."
                 icon="roundedCheck"
                 className={styles.skillWrapper}
                 color="rgb(198, 208, 227)"

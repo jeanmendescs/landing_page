@@ -33,6 +33,9 @@
   > svg {
     margin-right: 10px;
   }
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 .whoami {

@@ -23,13 +23,16 @@ O objetivo deste projeto é colocar em prática o conteúdo aprendido de um curs
 
 ## Screenshots
 
-![Example screenshot](https://imgur.com/XmaQunf.jpg)
-![Example screenshot](https://imgur.com/FGumfDr.jpg)
-![Example screenshot](https://imgur.com/UnWna5q.jpg)
+![Example screenshot](https://imgur.com/fVCPhCD.jpg)
+![Example screenshot](https://imgur.com/tYmQhB4.jpg)
+![Example screenshot](https://imgur.com/Ju4vvnU.jpg)
+![Example screenshot](https://imgur.com/vGzO226.jpg)
 
 ## Tecnologias
 
 - React
+- CSS Modules
+- Sass
 
 ## Instalação
 
