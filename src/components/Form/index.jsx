@@ -1,6 +1,7 @@
 import React from "react";
 import Input from "../Input";
 import styles from "./styles.module.scss";
+import InputPhone from "../InputPhone";
 
 const Form = () => {
   return (
@@ -28,12 +29,11 @@ const Form = () => {
             placeholder="Seu Cargo"
             className={styles.inlineFirst}
           />
-          <Input
+          <InputPhone
             name="Telefone de Contato"
-            placeholder="(DDD) 9 9999-9999"
             className={styles.inlineSecond}
-            pattern="[0-9]"
             title="Apenas números"
+            placeholder="(99) 99999-9999"
           />
           <div className={styles.flex}>
             <label htmlFor="proposal">Envie-nos sua proposta ou dúvida</label>
