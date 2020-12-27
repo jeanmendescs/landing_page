@@ -1,18 +1,12 @@
-import React from "react";
+import React, { forwardRef } from "react";
 
-const Input = ({ className, name, placeholder, type, pattern, title }) => {
+const Input = forwardRef(({ className, name, ...rest }, ref) => {
   return (
     <div className={className}>
-      <label>{name}</label>
-      <input
-        type={type}
-        placeholder={placeholder}
-        pattern={pattern}
-        title={title}
-        required
-      />
+      <label htmlFor={name}>{name}</label>
+      <input id={name} name={name} ref={ref} {...rest} />
     </div>
   );
-};
+});
 
 export default Input;
