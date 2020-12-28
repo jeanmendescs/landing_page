@@ -41,7 +41,11 @@ const Form = () => {
     <section className={styles.form}>
       <div className={styles.container}>
         <h1>Solicite uma Consultoria</h1>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form
+          action="https://formsubmit.co/coaster_mendes@hotmail.com"
+          method="POST"
+          onSubmit={handleSubmit(onSubmit)}
+        >
           <Input
             error={errors.name}
             name="name"
@@ -58,7 +62,7 @@ const Form = () => {
             label="Email"
             type="email"
             name="email"
-            placeholder="email@exemplo.com"
+            placeholder="exemplo@exemplo.com"
             ref={register}
             title="exemplo@exemplo.com"
           />
