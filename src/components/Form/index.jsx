@@ -9,7 +9,10 @@ import Classnames from "classnames";
 const Form = () => {
   const addressSchema = yup.object().shape({
     email: yup.string().email().required(),
-    phone: yup.string().length(13),
+    phone: yup.string().matches(/(\(?\d{2}\)?\s)?(\d{4,5}-\d{4})/, {
+      message: "Please enter valid number.",
+      excludeEmptyString: false,
+    }),
   });
 
   const { register, handleSubmit, control, errors } = useForm({
@@ -62,6 +65,7 @@ const Form = () => {
             className={Classnames(styles.inlineFirst, styles.flexHeight)}
           />
           <Controller
+            defaultValue=""
             name="phone"
             control={control}
             as={
