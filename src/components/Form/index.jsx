@@ -5,23 +5,38 @@ import { useForm, Controller } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import Classnames from "classnames";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Form = () => {
   const addressSchema = yup.object().shape({
-    email: yup.string().email().required(),
-    phone: yup.string().matches(/(\(?\d{2}\)?\s)?(\d{4,5}-\d{4})/, {
-      message: "Please enter valid number.",
-      excludeEmptyString: false,
-    }),
+    email: yup.string().email("Email inválido").required("Campo obrigatório"),
+    phone: yup
+      .string()
+      .required("Campo obrigatório")
+      .length(15, "Telefone inválido"),
+    name: yup.string().required("Campo obrigatório"),
+    proposal: yup.string().required("Campo obrigatório"),
   });
 
-  const { register, handleSubmit, control, errors } = useForm({
+  const { register, handleSubmit, control, errors, reset } = useForm({
     resolver: yupResolver(addressSchema),
   });
+
+  const toastNotification = (data) => {
+    console.log(data);
+    if (data) {
+      toast.configure();
+      toast.success("Dados enviados com sucesso!");
+    }
+  };
+
   const onSubmit = (data) => {
     console.log(data);
+    reset();
+    toastNotification(data);
   };
-  console.log(errors);
+
   return (
     <section className={styles.form}>
       <div className={styles.container}>
@@ -45,6 +60,7 @@ const Form = () => {
             name="email"
             placeholder="email@exemplo.com"
             ref={register}
+            title="exemplo@exemplo.com"
           />
           <Input
             error={errors.company}
@@ -96,11 +112,9 @@ const Form = () => {
             className={Classnames(styles.flex, styles.proposal)}
             textarea
           />
-          <div className={styles.submit}>
-            <button className={styles.btnSubmit} value="submit" type="submit">
-              Quero falar com um consultor
-            </button>
-          </div>
+          <button className={styles.btnSubmit} value="submit" type="submit">
+            Quero falar com um consultor
+          </button>
         </form>
       </div>
     </section>
