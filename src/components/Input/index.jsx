@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import Cleave from "cleave.js/react";
 
 const Input = forwardRef(
-  ({ id, className, maskOptions, label, textarea, ...rest }, ref) => {
+  ({ id, className, maskOptions, label, textarea, error, ...rest }, ref) => {
     const renderInput = () => {
       const commonProps = { id, ref, ...rest };
       if (textarea) {
@@ -15,11 +15,11 @@ const Input = forwardRef(
 
       return <input {...commonProps} />;
     };
-
     return (
       <div className={className}>
         <label htmlFor={id}>{label}</label>
         {renderInput()}
+        {error && <p>{error.message}</p>}
       </div>
     );
   }
